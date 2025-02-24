@@ -1,6 +1,10 @@
 
 body{
-    margin: 0;
+    background-image: url('./images/bg-pattern-top-desktop.svg');
+    background-size: 20% 60%;
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin: 50px;
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
     background-color:  hsl(0, 0%, 100%);
@@ -9,14 +13,16 @@ body{
 }
 
 .attribution{
- justify-content: center;
- height: 500px;
- width: 100%;
- background-image:url('./images/bg-pattern-bottom-desktop.svg'), url('./images/bg-pattern-top-desktop.svg');
- background-repeat: no-repeat,no-repeat;
- background-size: 200% 80% ;
- background-position: right bottom , left top;
- margin: 20px 50px;
+   justify-content: center;
+   height: 100%;
+   width: 100%;
+   background-image:url('./images/bg-pattern-bottom-desktop.svg');
+   background-repeat: no-repeat;
+   background-size: 70%;
+  
+   background-position: right bottom;
+   margin: 20px 50px;
+   
    
     
 }
@@ -123,7 +129,7 @@ p{
     color:hsl(300, 43%, 22%);
     background-color:hsl(300, 24%, 96%) ;
     margin-top: 10px;
-    width: 55%;
+    width: 60%;
     height: 50px;
     margin-right:5px;
     border-radius: 5px 5px;
@@ -135,7 +141,7 @@ p{
     color:hsl(300, 43%, 22%);
     background-color:hsl(300, 24%, 96%) ;
     margin-top: 10px; 
-    width: 55%;
+    width: 60%;
     height: 50px;
     border-radius: 5px 5px;
 }
